@@ -1,0 +1,13 @@
+
+:root{--ink:#23345d;--paper:#fffaf2;--muted:#65718a;--accent:#d94d67}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:linear-gradient(140deg,#eaf4ff,#fff3f2 55%,#fff9df);line-height:1.75}
+a{color:inherit}.wrap{max-width:900px;margin:auto;padding:22px}.hero{background:rgba(255,255,255,.88);border:2px solid #f3c5ce;border-radius:28px;padding:30px 24px;text-align:center;box-shadow:0 12px 35px #40508018}
+.kicker{letter-spacing:.12em;text-transform:uppercase;color:#bd5267;font-size:.78rem;font-weight:800}.hero h1{font-family:Georgia,serif;font-size:clamp(2rem,7vw,3.5rem);line-height:1.12;margin:.35em 0;color:#b91f35}.hero p{color:var(--muted);margin:.5em 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px;margin:22px 0}.tile{display:block;text-decoration:none;background:#fff;border:1px solid #eadbe0;border-radius:20px;padding:20px;box-shadow:0 6px 20px #40508010;transition:.15s}.tile:hover{transform:translateY(-2px);box-shadow:0 10px 24px #40508020}.emoji{font-size:2rem}.tile h2{margin:6px 0 2px;font-family:Georgia,serif}.tile p{margin:0;color:var(--muted);font-size:.95rem}
+.article{background:#fffefa;border:1px solid #eadbe0;border-radius:24px;padding:clamp(20px,5vw,38px);margin:22px 0;box-shadow:0 8px 26px #40508012}.article h2{font-family:Georgia,serif;color:#a92f49;font-size:1.45rem;margin:1.1em 0 .3em}.article h2:first-child{margin-top:0}.article p{white-space:pre-line;margin:.5em 0 1em}.quote{border-left:4px solid #e58b9c;background:#fff2f4;padding:16px 18px;border-radius:0 14px 14px 0;font-family:Georgia,serif;font-style:italic;margin:24px 0}
+.nav{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:20px 0}.nav a,.pill{display:inline-block;text-decoration:none;background:#fff;border:1px solid #eadbe0;padding:9px 14px;border-radius:999px;font-weight:650}
+footer{text-align:center;color:var(--muted);font-size:.9rem;padding:22px 10px}.small{font-size:.9rem;color:var(--muted)}
+.qrbox{background:#fff;border:1px dashed #d8a8b2;border-radius:18px;padding:16px;margin:18px 0;text-align:center}.qrbox canvas,.qrbox img{margin:10px auto;display:block}
+input{width:min(100%,560px);padding:12px;border:1px solid #ccd3df;border-radius:12px;font:inherit}
+button{border:0;border-radius:12px;background:#b92e49;color:white;padding:11px 18px;font:inherit;font-weight:700;cursor:pointer}
+@media(max-width:520px){.wrap{padding:13px}.hero{padding:23px 16px}.article{padding:20px}}
